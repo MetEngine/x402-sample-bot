@@ -1,0 +1,17 @@
+{
+  "name": "x402-agent",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@solana/kit": "^6.1.0",
+    "@x402/core": "^2.3.1",
+    "@x402/svm": "^2.3.0"
+  }
+}
